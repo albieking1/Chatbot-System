@@ -8,3 +8,5 @@ while true():
   if user_input.lower() == "bye":
     print("Chatbot: Goodbye!")
     break
+    
+response = responses.get_response(user_input)
