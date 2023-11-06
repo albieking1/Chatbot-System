@@ -5,3 +5,5 @@ def chatbot():
 
 while true():
   user_input = input("You: ")
+  if user_input.lower() == "bye":
+    print("
