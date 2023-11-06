@@ -3,10 +3,15 @@ import responses
 def chatbot():
   print("Simple chatbot ai - If you want to exit, just type 'bye'.")
 
-while true():
-  user_input = input("You: ")
-  if user_input.lower() == "bye":
-    print("Chatbot: Goodbye!")
-    break
+  while true():
+    user_input = input("You: ")
+   if user_input.lower() == "bye":
+     
+     print("Chatbot: Goodbye!")
+     break
     
-response = responses.get_response(user_input)
+   response = responses.get_response(user_input)
+   print(f"Chatbot: {response}")
+
+if __name__ == "__main__":
+  chatbot()
