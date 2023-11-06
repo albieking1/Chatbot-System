@@ -1,6 +1,6 @@
 # this is a learner version of the main.py file feel free to change it or even completely re-do it, enjoy
 
-# now later on down the line we will add a training set of data over the top of these preset responses
+# add the training set in here for all of the files sytem codes and more 
 
 import responses
 
