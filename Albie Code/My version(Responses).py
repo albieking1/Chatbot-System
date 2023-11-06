@@ -12,5 +12,7 @@ elif any(word in user_input for word in farewells):
     return "Goodbye!"
 elif "how are you" in user_input:
     return "I am a computer program, I do not experience feelings. Thank you for asking though!"
+elif "are you a robot" in user_input:
+    return "I am a robot, I cannot say the phrase 'I am not a robot'."
 else:
     return "I am sorry, I do not understand your question, please rephrase!"
